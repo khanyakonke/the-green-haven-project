@@ -1,1 +1,179 @@
 # the-green-haven-project
+<strong>Proposals</strong>
+
+<strong>Mpilenhle Mokgope</strong><br>
+ST10482694<br>
+Web development<br>
+WEDE5020
+
+
+<h1>Organization Overview</h1><br>
+
+
+
+<h1>Project: Website Development- Part 1<br></h1>
+<h2>Organization Overview</h2><br>
+Organization Name: The Green Haven Project
+
+Brief History: The Green Haven Project is a fictional, local non-profit organization founded in 2018 by a group of concerned citizens and environmental activists. It began as a community garden initiative in an underutilized urban lot and has since grown into a multi-faceted organization dedicated to environmental sustainability and community well-being. Over the years, it has expanded its programs to include weekly farmers' markets, environmental education workshops for all age and a community composting program. The organization is run by a small staff and a large network of dedicated volunteers, relying heavily on community support and grants to operate
+
+Mission Statement: To cultivate a sustainable and resilient community by providing accessible green spaces, education, and resources that empower individuals to lead environmentally conscious lives.
+
+Vision Statement: A future where every community has access to green spaces, fresh food and the knowledge to protect our planet for generations to come.
+
+Target Audience:
+<ul>
+   <li>Community Members: Local residents seeking fresh, affordable produce and community engagement opportunities.</li>
+   <li>Volunteers: Individuals of all ages looking to contribute their time and skills to environmental causes.</li>
+   <li>Donors and Sponsors: Individuals and local businesses interested in supporting a sustainable and impactful community project.</li>
+  <li>Workshop Attendees: Schools and community groups interested in the organization’s educational programs.</li>
+</ul>
+
+<h1>Website Goals and Objectives</h1><br>
+
+<h2>Specific Goals:</h2><br>
+<ul>
+   <li>Increase Community Engagement: Encourage local residents to participate in events, workshops and volunteer opportunities.</li>
+   <li>Drive Donations and Fundraising: Create a clear, secure, and compelling pathway for online donations to sustain the organization’s programs.</li>
+   <li>Provide Valuable Information: Act as a central hub for information on upcoming events, farmers' market schedules, workshop details and composting guidelines.</li>
+   <li>Build Brand Awareness and Trust: Present a professional, heartfelt and transparent image to solidify the organization’s reputation as a trusted community asset.</li>
+</ul>
+
+<h2>Key Performance Indicators (KPIs)</h2><br>
+<ul>
+   <li>Donation Conversion Rate: The percentage of visitors who complete a donation.</li>
+   <li>Event Registration/RSVP Rate: The number of sign-ups for events and workshops directly from the website.</li>
+   <li>Volunteer Sign-up Rate: The number of completed volunteer application forms.</li>
+   <li>Website Traffic & Engagement: Metrics like unique visitors, page views, average session duration and bounce rate.</li>
+   <li>Email Newsletter Sign-ups: The growth of the organization’s mailing list.</li>
+</ul>
+
+<h1>Current Website Analysis</h1><br>
+For this proposal, we assume The Green Haven Project currently has a basic, static website with limited functionality:<br>
+<ul>
+<li>Strengths: The website currently provides basic contact information and a brief overview of the organisation's history.</li>
+<li>Weaknesses: It is outdated, difficult to navigate and lacks essential features. There are no online donation capabilities, event calendars are static and hard to update and volunteer information is scarce. The design is not mobile-responsive, which alienates a large segment of its target audience. The lack of engaging content (like blogs, stories, or images) makes it difficult to build a connection with potential supporters.</li>
+</ul>
+
+
+<h1>Proposed Website Features and Functionality</h1><br>
+The proposed website will be a comprehensive Content Management System (CMS) with the following essential features:<br>
+<ul>
+<li>Homepage: An engaging landing page with a hero section, clear calls-to-action (Donate, Volunteer, Sign Up), and a summary of upcoming events or news.</li>
+<li>About Us: A page detailing the organization’s history, mission, vision, and team. It will also showcase impact stories and testimonials from the community.</li>
+<li>Get Involved: A dedicated section with clear pathways for:
+  <ol>
+<li>Volunteer: Information on opportunities and an online application form.</li>	         <li>Donate: A secure, user-friendly online donation form with suggested amounts and the option for recurring donations.</li>
+<li>Attend: An interactive events calendar where users can view and register for upcoming workshops and markets.</li>
+  </ol><li>
+<li>Programs & Services: Detailed pages explaining each initiative (Community Garden, Farmers’ Market, Workshops, Composting  Programs).</li>
+<li>Blog/News: A dynamic section to share updates, success stories and educational content to drive engagement and improve SEO.</li>
+<li>Contact: A contact form and a map to the physical location.</li>
+</ul>
+
+
+<h1>Design and User Experience</h1><br>
+
+<h2>Aesthetic and Branding</h2><br>
+The design will evoke a sense of trust, warmth, and environmental stewardship.<br>
+
+<strong>Colour Scheme:</strong><br>
+<ul>
+<li>Primary: Deep Green (#2E5C3B), representing nature, growth and sustainability.</li>
+<li>Secondary: Warm Cream (#F9F6F0), providing a clean, organic background for readability.</li>
+<li>Accents: Earthy Terracotta (#D4836E), for buttons and calls-to-action, adding warmth and energy.</li>
+</ul>
+
+<strong>Typography:</strong><br>
+<ul>
+<li>Headings (Primary Font): ‘Lato’, a clean and modern sans-serif font offering excellent readability for headings and titles.</li>
+<li>Body Text (Secondary Font): ‘Roboto’, known for its high legibility on screens, ensuring a comfortable reading experience for long-form content.</li>
+<li>Layout and Design: A clean, uncluttered layout that prioritises clear information hierarchy, ample white space and high-quality, original imagery of the garden, volunteers and produce to create an authentic, community-focused feel.</li>
+</ul>
+
+<strong>User Experience (UX) Considerations</strong><br>
+<li>Navigation: The main navigation menu will be simple, intuitive and sticky, allowing users to easily access key sections (About, Get Involved, Programmes, Contact).</li>
+<li>Mobile-First Design: The website will be fully responsive and optimised for mobile devices, as a significant portion of traffic will likely come from smartphones.</li>
+<li>Accessibility: The design will adhere to WAG 2.1 AA standards, ensuring the site is usable by people with disabilities. This includes sufficient colour contrast, keyboard navigability and descriptive labels for screen readers.</li>
+<li>Calls-to-Action (CTAs): Clear and compelling CTAs (“Donate Now”, “Join the Team”, “Register for Workshop”) will be strategically placed to guide users towards the organization’s goals.</li>
+
+
+<strong>Low-Fidelity Wireframes</strong><br>
+<ul>
+<li>Homepage Wireframe: Would show a large banner area (Hero), followed by sections for “Mission Summary”, “Upcoming Events,” “Get Involved (Donate/Volunteer)” and a “Latest News” section.</li>
+<li>Get Involved Wireframe: Would illustrate a page with three distinct blocks/columns guiding users to “Donate”, “Volunteer” and “Attend an Event”, each with its own clear CTA button.</li>
+</ul>
+
+<h1>Technical Requirements</h1><br>
+<ul>
+<li>Domain Name: www.thegreenhavenproject.org</li>
+<li>Hosting: A reliable, shared or cloud hosting provider with good uptime and customer support (Bluehost, Site Ground).</li>
+<li>CMS: WordPress, chosen for its flexibility, extensive plugin ecosystem (for donations, events, and SEO), and ease of use for non-technical staff to update content.</li>
+<li>Programming Languages: HTML5, CSS3, JavaScript (for front-end interactions). PHP for WordPress back-end functionality.</li>
+</ul>
+
+
+<h1>Timeline and Milestones</h1><br>
+<table>
+<tr>
+  <th>Milestone</th>
+  <th>Description</th>
+  <th>Estimated Completion</th>
+</tr>
+<tr>
+  <td>Project planning</td>
+  <td>Finalize scope, site map and wireframes</td>
+  <td>1 Week</td>
+</tr>
+<tr>
+   <td>Design phase</td>
+   <td>Create and approve high fidelity design mockups</td>
+   <td>2-3 Weeks</td>
+</tr>
+<tr>
+  <td>Development phase</td>
+  <td>Build the front-end functionality</td>
+  <td>4-6 Weeks</td>
+</tr>
+<tr>
+<td>Content migration</td>
+<td>Populate the site with text, images and usability</td>
+<td>1 Week</td>
+</tr>
+<tr>
+<td>Testing and QA</td>
+<td>Test for responsiveness, functionality, and usability.</td>
+<td>1 Week</td>
+</tr>
+<tr>
+<td>Client training</td>
+<td>Train The Green Haven Project staff on CMS usage.</td>
+<td>1 Week</td>
+</tr>
+<tr>
+<td>Launch</td>
+<td>Deploy the website to the live server.</td>
+<td>1 Week</td>
+</table>
+
+
+<h1>Budget</h1><br>
+<table>
+<tr>
+  <th>Item</th>
+  <th>Estimated (ZAR)</th>
+</tr>
+<tr>
+  <td>Domain Registration (1 year)</td>
+  <td>R150- R300</td>
+</tr>
+Web hosting (1 year, shared)	R1500- R3000
+Premium Theme (one time fee)	R1200- R2500
+Essential plans (Donations, SOE, Security- annual subscriptions)	R2500- R5000
+Development and Design (Estimated 80-100 hours at student or freelance rate)	R16 000- R20 000
+Total Estimated Budget	R21 350- R30 800
+</table>
+
+
+
+
