@@ -91,14 +91,14 @@ The design will evoke a sense of trust, warmth, and environmental stewardship.<b
 <li>Layout and Design: A clean, uncluttered layout that prioritises clear information hierarchy, ample white space and high-quality, original imagery of the garden, volunteers and produce to create an authentic, community-focused feel.</li>
 </ul>
 
-<strong><h2>User Experience (UX) Considerations<h2></strong><br>
+<h2>User Experience (UX) Considerations</h2>
 <li>Navigation: The main navigation menu will be simple, intuitive and sticky, allowing users to easily access key sections (About, Get Involved, Programmes, Contact).</li>
 <li>Mobile-First Design: The website will be fully responsive and optimised for mobile devices, as a significant portion of traffic will likely come from smartphones.</li>
 <li>Accessibility: The design will adhere to WAG 2.1 AA standards, ensuring the site is usable by people with disabilities. This includes sufficient colour contrast, keyboard navigability and descriptive labels for screen readers.</li>
 <li>Calls-to-Action (CTAs): Clear and compelling CTAs (“Donate Now”, “Join the Team”, “Register for Workshop”) will be strategically placed to guide users towards the organization’s goals.</li>
 
 
-<strong><h2>Low-Fidelity Wireframes<h2></strong><br>
+<strong><h2>Low-Fidelity Wireframes</h2></strong><br>
 <ul>
 <li>Homepage Wireframe: Would show a large banner area (Hero), followed by sections for “Mission Summary”, “Upcoming Events,” “Get Involved (Donate/Volunteer)” and a “Latest News” section.</li>
 <li>Get Involved Wireframe: Would illustrate a page with three distinct blocks/columns guiding users to “Donate”, “Volunteer” and “Attend an Event”, each with its own clear CTA button.</li>
