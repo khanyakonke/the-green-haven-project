@@ -190,5 +190,16 @@ The design will evoke a sense of trust, warmth, and environmental stewardship.<b
 </table>
 
 
+<h1>Reference</h1><br>
+<ul>
+<li>Anglia Ruskin University (2016) Guide to Harvard style of referencing. Available at: https://www.oxford.anglican.org/wpcontent/uploads/2013/02/HarvardRefGuideKBGAug2014website.pdf (Accessed: 15 August 2026).</li>
+<li>Elementor (2026) How to Create a Website for a Small Business - 2026 Step-by-Step Guide. Available at: https://elementor.com/blog/create-website-for-small-business/ (Accessed: 14 August 2026).</li>
+<li>Framer (n.d.) Charion. Community and Nonprofit Template. Available at: https://framer.com/templates/charion-community-and-nonprofit-template/ (Accessed: 14 August 2026).</li>
+<li>Framer (n.d.) Charis. Charities and Non-Profits Template. Available at: https://framer.com/templates/charis-charities-and-non-profits-template/ (Accessed: 14 August 2026).</li>
+<li>Hostinger (2026) Web development proposal: Best practices and examples. Available at: https://www.hostinger.com/tutorials/web-development-proposal/ (Accessed: 14 August 2026).</li>
+<li>Wired Impact (2026) A Simple Nonprofit Website RFP Template. Available at: https://www.wiredimpact.com/blog/nonprofit-website-rfp-template/ (Accessed: 14 August 2026).</li>
+<li>Cleverence (n.d.) Retail business website: build, design, and optimize for sales. Available at: https://cleverence.com/articles/retail-business-website/ (Accessed: 14 August 2026).</li>
+</ul>
+
 
 
