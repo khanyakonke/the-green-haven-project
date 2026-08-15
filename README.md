@@ -167,11 +167,26 @@ The design will evoke a sense of trust, warmth, and environmental stewardship.<b
   <td>Domain Registration (1 year)</td>
   <td>R150- R300</td>
 </tr>
-Web hosting (1 year, shared)	R1500- R3000
-Premium Theme (one time fee)	R1200- R2500
-Essential plans (Donations, SOE, Security- annual subscriptions)	R2500- R5000
-Development and Design (Estimated 80-100 hours at student or freelance rate)	R16 000- R20 000
-Total Estimated Budget	R21 350- R30 800
+<tr>
+   <td>Web hosting (1 year, shared)</td>
+   <td>R1500- R3000</td>
+</tr>
+<tr>
+   <td>Premium Theme (one time fee)</td>
+   <td>R1200- R2500</td>
+</tr>
+<tr>
+   <td>Essential plans (Donations, SOE, Security- annual subscriptions)</td>
+   <td>R2500- R5000</td>
+</tr>
+<tr>
+   <td>Development and Design (Estimated 80-100 hours at student or freelance rate)</td>
+   <td>R16 000-R20 000</td>
+</tr>
+<tr>
+   <td>Total Estimated Budget</td>
+   <td>R21 350- R30 800</td>
+</tr>
 </table>
 
 
