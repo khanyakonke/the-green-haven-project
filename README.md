@@ -39,7 +39,7 @@ Target Audience:
    <li>Build Brand Awareness and Trust: Present a professional, heartfelt and transparent image to solidify the organization’s reputation as a trusted community asset.</li>
 </ul>
 
-<h2>Key Performance Indicators (KPIs)</h2><br>
+<h2>Key Performance Indicators (KPI's)</h2><br>
 <ul>
    <li>Donation Conversion Rate: The percentage of visitors who complete a donation.</li>
    <li>Event Registration/RSVP Rate: The number of sign-ups for events and workshops directly from the website.</li>
