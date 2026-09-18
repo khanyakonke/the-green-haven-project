@@ -203,3 +203,16 @@ The design will evoke a sense of trust, warmth, and environmental stewardship.<b
 
 
 
+
+
+## Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| **HTML5** | Semantic page structure and content |
+| **CSS3** | External styling, layout, responsive design |
+| **Google Maps Embed** | Location map on contact page |
+| **GitHub** | Version control and remote repository hosting |
+
+
+
