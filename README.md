@@ -1,7 +1,7 @@
 # the-green-haven-project
 <strong>Proposals</strong>
 
-<strong>Mpilenhle Mokgope</strong><br>
+<strong>Mpilenhle Khanya Mokgope</strong><br>
 ST10482694<br>
 Web development<br>
 WEDE5020
