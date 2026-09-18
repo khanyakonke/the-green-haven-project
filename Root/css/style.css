@@ -225,7 +225,142 @@ body > p:nth-last-of-type(3) {
     font-size: 0.95rem;
 }
 
-/* ============ RESPONSIVE — TABLET ============ */
+/* ============================================================
+   FLEX UTILITIES — add these classes to any container
+   ============================================================ */
+.flex        { display: flex; }
+.flex-col    { display: flex; flex-direction: column; }
+.flex-wrap   { flex-wrap: wrap; }
+.flex-nowrap { flex-wrap: nowrap; }
+
+/* Main-axis alignment */
+.justify-start   { justify-content: flex-start; }
+.justify-center  { justify-content: center; }
+.justify-end     { justify-content: flex-end; }
+.justify-between { justify-content: space-between; }
+.justify-around  { justify-content: space-around; }
+.justify-evenly  { justify-content: space-evenly; }
+
+/* Cross-axis alignment */
+.items-start    { align-items: flex-start; }
+.items-center   { align-items: center; }
+.items-end      { align-items: flex-end; }
+.items-stretch  { align-items: stretch; }
+.items-baseline { align-items: baseline; }
+
+/* Self alignment */
+.self-start   { align-self: flex-start; }
+.self-center  { align-self: center; }
+.self-end     { align-self: flex-end; }
+.self-stretch { align-self: stretch; }
+
+/* Flex grow / shrink / basis */
+.flex-1    { flex: 1 1 0%; }
+.flex-auto { flex: 1 1 auto; }
+.flex-none { flex: none; }
+.grow      { flex-grow: 1; }
+.shrink-0  { flex-shrink: 0; }
+
+/* Gap helpers */
+.gap-xs { gap: 0.25rem; }
+.gap-sm { gap: 0.5rem; }
+.gap-md { gap: 1rem; }
+.gap-lg { gap: 1.5rem; }
+.gap-xl { gap: 2.5rem; }
+
+/* Row / Column with gap presets */
+.row-sm  { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.row-md  { display: flex; flex-wrap: wrap; gap: 1rem; }
+.row-lg  { display: flex; flex-wrap: wrap; gap: 1.5rem; }
+
+.col-sm  { display: flex; flex-direction: column; gap: 0.5rem; }
+.col-md  { display: flex; flex-direction: column; gap: 1rem; }
+.col-lg  { display: flex; flex-direction: column; gap: 1.5rem; }
+
+/* Centered flex container */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ============================================================
+   CARD GRID (flex-based, responsive without media queries)
+   ============================================================ */
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    max-width: 1100px;
+    margin: 1.5rem auto;
+    padding: 0 1.5rem;
+}
+
+.card-grid > * {
+    flex: 1 1 300px;
+    max-width: 500px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border-left: 5px solid #1a5e20;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    padding: 1.5rem;
+}
+
+/* ============================================================
+   RESPONSIVE — LARGE DESKTOP (min-width: 1400px)
+   ============================================================ */
+@media screen and (min-width: 1400px) {
+    body > h1,
+    body > p,
+    body > h2,
+    body > h3,
+    body > hr,
+    body > img,
+    section,
+    .card-grid {
+        max-width: 1300px;
+    }
+
+    body > img {
+        height: 520px;
+    }
+
+    h1 { font-size: 3rem; }
+    h2 { font-size: 2.1rem; }
+
+    .card-grid > * {
+        flex: 1 1 380px;
+        max-width: 600px;
+    }
+}
+
+/* ============================================================
+   RESPONSIVE — SMALL DESKTOP / LARGE TABLET (max-width: 1024px)
+   ============================================================ */
+@media screen and (max-width: 1024px) {
+    body > img {
+        height: 380px;
+    }
+
+    iframe {
+        height: 350px;
+    }
+
+    .card-grid {
+        gap: 1.25rem;
+    }
+
+    .card-grid > * {
+        flex: 1 1 280px;
+    }
+
+    .gap-xl { gap: 2rem; }
+}
+
+/* ============================================================
+   RESPONSIVE — TABLET (max-width: 768px)
+   ============================================================ */
 @media screen and (max-width: 768px) {
     h1 { font-size: 2rem; }
     h2 { font-size: 1.5rem; }
@@ -257,9 +392,32 @@ body > p:nth-last-of-type(3) {
         height: 320px;
         width: calc(100% - 3rem);
     }
+
+    /* Flex adjustments */
+    .flex-wrap-sm { flex-wrap: wrap; }
+    .flex-col-sm  { flex-direction: column; }
+
+    .justify-center-sm { justify-content: center; }
+    .items-center-sm   { align-items: center; }
+
+    .gap-md { gap: 0.75rem; }
+    .gap-lg { gap: 1rem; }
+    .gap-xl { gap: 1.5rem; }
+
+    .card-grid {
+        gap: 1rem;
+        padding: 0 1.5rem;
+    }
+
+    .card-grid > * {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
 }
 
-/* ============ RESPONSIVE — MOBILE ============ */
+/* ============================================================
+   RESPONSIVE — MOBILE (max-width: 480px)
+   ============================================================ */
 @media screen and (max-width: 480px) {
     h1 { font-size: 1.65rem; letter-spacing: 0; }
     h2 { font-size: 1.3rem; }
@@ -311,5 +469,251 @@ body > p:nth-last-of-type(3) {
 
     hr {
         margin: 1.25rem 0;
+    }
+
+    /* Force all flex containers to stack on mobile */
+    .flex,
+    .flex-col,
+    .flex-wrap,
+    .row-sm,
+    .row-md,
+    .row-lg,
+    .card-grid {
+        flex-direction: column;
+    }
+
+    .flex-center {
+        flex-direction: column;
+    }
+
+    /* Reset flex-basis on mobile */
+    .card-grid > * {
+        flex: 1 1 auto;
+        max-width: 100%;
+    }
+
+    /* Gap tightening */
+    .gap-lg { gap: 0.75rem; }
+    .gap-xl { gap: 1rem; }
+
+    /* Alignment overrides */
+    .items-center-mobile { align-items: center; }
+    .justify-center-mobile { justify-content: center; }
+    .text-center-mobile { text-align: center; }
+}
+
+/* ============================================================
+   RESPONSIVE — VERY SMALL MOBILE (max-width: 360px)
+   ============================================================ */
+@media screen and (max-width: 360px) {
+    h1 { font-size: 1.4rem; }
+    h2 { font-size: 1.15rem; }
+    h3 { font-size: 1rem; }
+
+    body {
+        font-size: 0.85rem;
+    }
+
+    body > img {
+        height: 180px;
+        width: calc(100% - 1.5rem);
+    }
+
+    img[width="250"],
+    img[width="40%"],
+    img[width="60%"] {
+        height: 160px;
+        width: calc(100% - 1.5rem);
+    }
+
+    iframe {
+        height: 220px;
+        width: calc(100% - 1.5rem);
+    }
+
+    section {
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+
+    .card-grid {
+        padding: 0 1rem;
+    }
+
+    .gap-md { gap: 0.5rem; }
+    .gap-lg { gap: 0.5rem; }
+    .gap-xl { gap: 0.75rem; }
+}
+
+/* ============================================================
+   RESPONSIVE — LANDSCAPE MOBILE (max-height: 500px)
+   ============================================================ */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    body > img {
+        height: 200px;
+    }
+
+    h1 { font-size: 1.6rem; }
+
+    iframe {
+        height: 220px;
+    }
+}
+
+/* ============================================================
+   PRINT STYLES
+   ============================================================ */
+@media print {
+    *,
+    *::before,
+    *::after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    body {
+        font-size: 12pt;
+        line-height: 1.4;
+        background: #fff;
+    }
+
+    body > img,
+    img[width="250"],
+    img[width="40%"],
+    img[width="60%"],
+    iframe {
+        display: none;
+    }
+
+    h1, h2, h3 {
+        color: #000 !important;
+        page-break-after: avoid;
+    }
+
+    a {
+        text-decoration: underline;
+        color: #000 !important;
+    }
+
+    a[href]::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+        font-weight: normal;
+    }
+
+    section,
+    .card-grid > * {
+        border: 1px solid #ccc;
+        page-break-inside: avoid;
+    }
+
+    .card-grid {
+        display: block;
+    }
+
+    .card-grid > * {
+        margin-bottom: 1rem;
+    }
+
+    hr {
+        border-top: 1px solid #000;
+    }
+}
+
+/* ============================================================
+   ACCESSIBILITY — REDUCED MOTION
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* ============================================================
+   DARK MODE SUPPORT (optional)
+   ============================================================ */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1a1a1a;
+        color: #e0e0e0;
+    }
+
+    h1, h2, h3 {
+        color: #7ecf84;
+    }
+
+    a {
+        color: #7ecf84;
+    }
+
+    a:hover,
+    a:focus {
+        color: #a8e6ac;
+    }
+
+    section,
+    .card-grid > *,
+    body > p:nth-of-type(2) {
+        background-color: #2a2a2a;
+        border-left-color: #7ecf84;
+        color: #e0e0e0;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select,
+    textarea {
+        background-color: #333;
+        color: #e0e0e0;
+        border-color: #555;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+        border-color: #7ecf84;
+        box-shadow: 0 0 0 3px rgba(126, 207, 132, 0.25);
+    }
+
+    strong {
+        color: #a8e6ac;
+    }
+
+    small {
+        color: #aaa;
+    }
+
+    hr {
+        border-top-color: #444;
+    }
+
+    body > p a strong,
+    body > h2 + p a strong {
+        background-color: #7ecf84;
+        color: #1a1a1a;
+        border-color: #7ecf84;
+    }
+
+    body > p a strong:hover,
+    body > h2 + p a strong:hover {
+        background-color: transparent;
+        color: #7ecf84;
+    }
+
+    body > p:last-of-type,
+    body > p:nth-last-of-type(2),
+    body > p:nth-last-of-type(3) {
+        color: #aaa;
     }
 }
