@@ -227,4 +227,24 @@ The design will evoke a sense of trust, warmth, and environmental stewardship.<b
 | **GitHub** | Version control and remote repository hosting |
 
 
+project-root/
+├── index.html # Homepage
+├── README.md # Project documentation
+├── css/
+│ └── style.css # External stylesheet
+├── Assets/
+│ ├── about.html # About page
+│ ├── services.html # Services page
+│ ├── programmes.html # Programmes page
+│ ├── volunteer.html # Donate & Volunteer page
+│ ├── events.html # Events page
+│ ├── enquiry.html # Enquiry form
+│ └── contact.html # Contact & map
+└── images/
+├── StockCake-Community_Garden_Scenery-276753-standard.jpg
+├── StockCake-Community_Garden_Planting-360455-standard.jpg
+├── StockCake-Farmers_Market_Bounty-407717-standard.jpg
+├── StockCake-Composting_Organic_Waste-86347-standard.jpg
+└── StockCake-Volunteers_Planting_Together-171674-standard.jpg
+
 
