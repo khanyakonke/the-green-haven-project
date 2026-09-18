@@ -202,7 +202,18 @@ The design will evoke a sense of trust, warmth, and environmental stewardship.<b
 </ul>
 
 
+# Features
 
+- **Multi-page navigation** across 8 interconnected pages
+- **Fully responsive layout** with breakpoints for desktop, tablet, and mobile
+- **External CSS stylesheet** with a CSS reset for consistent cross-browser rendering
+- **Semantic HTML5 structure** with accessible headings and alt text
+- **Consistent colour scheme** reflecting the eco-friendly brand identity
+- **Interactive elements** using CSS pseudo-classes (`:hover`, `:focus`)
+- **Responsive images** with sensible sizing at every breakpoint
+- **Embedded Google Map** on the contact page
+- **Forms** for donations, volunteering, enquiries, and RSVP
+- **Clear calls-to-action** on every page
 
 
 ## Technologies Used
