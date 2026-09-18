@@ -199,6 +199,7 @@ The design will evoke a sense of trust, warmth, and environmental stewardship.<b
 <li>Hostinger (2026) Web development proposal: Best practices and examples. Available at: https://www.hostinger.com/tutorials/web-development-proposal/ (Accessed: 14 August 2026).</li>
 <li>Wired Impact (2026) A Simple Nonprofit Website RFP Template. Available at: https://www.wiredimpact.com/blog/nonprofit-website-rfp-template/ (Accessed: 14 August 2026).</li>
 <li>Cleverence (n.d.) Retail business website: build, design, and optimize for sales. Available at: https://cleverence.com/articles/retail-business-website/ (Accessed: 14 August 2026).</li>
+<li>W3Schools, n.d. HTML Tutorial. [online] Available at: https://www.w3schools.com/html/ [Accessed 18 September 2026].</li>
 </ul>
 
 
