@@ -203,6 +203,80 @@ The design will evoke a sense of trust, warmth, and environmental stewardship.<b
 </ul>
 
 
+<h1>Changelog</h1>
+
+Added
+Changelog section to document all project updates
+
+Table of Contents with anchor links for easier navigation
+
+Project information table with student and module details
+
+Low-fidelity wireframe descriptions for Homepage and Get Involved pages
+
+License section clarifying academic purpose
+
+Acknowledgements section
+
+KPI details for measuring website success
+
+"Programs & Initiatives" list under Organization Overview
+
+Changed
+Restructured document with improved heading hierarchy
+
+Converted plain text lists into formatted tables for readability
+
+Standardized date formats and currency notation (ZAR)
+
+Improved typography section formatting
+
+Corrected "WAG 2.1 AA" to "WCAG 2.1 AA" (accessibility standard)
+
+Fixed "SOE" to "SEO" in budget table (Search Engine Optimization)
+
+Corrected "Programmes" to "Programs" for consistency
+
+Fixed malformed HTML list in "Get Involved" section
+
+Cleaned up reference list with consistent formatting
+
+Fixed
+Removed stray HTML tags (<strong>, <br>, <h1>, <h2>, <ul>, <li>) from plain-text document
+
+Corrected broken indentation in nested lists
+
+Fixed inconsistent capitalization throughout document
+
+Repaired malformed table structure in Timeline and Budget sections
+
+Removed duplicate "Organization Overview" heading
+
+
+Added
+Initial project proposal document
+
+Organization overview (history, mission, vision)
+
+Target audience identification
+
+Website goals and objectives
+
+KPI framework
+
+Current website analysis (strengths and weaknesses)
+
+Proposed website features and functionality
+
+Design and branding guidelines (colours, typography, UX)
+
+Technical requirements specification
+
+Project timeline and milestones
+
+Estimated budget breakdown
+
+Harvard-style reference list
 # Features
 
 - **Multi-page navigation** across 8 interconnected pages
